@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Basic Calculator - HTML, CSS and JS</title>
+</head>
+
+<body>
+
+    <div class="calculator-container">
+        <div class="calculator">
+            <div class="calculator-header">
+                <h1>Super Basic Calculator</h1>
+                <p>HTML, CSS and JS</p>
+            </div>
+            <div class="result-header">
+                <input type="text" class="result-screen" readonly>
+            </div>
+            <div class="input-fields">
+                <input type="text" class="input-number first-number" placeholder="Enter First Number">
+                <input type="text" class="input-number second-number" placeholder="Enter Second Number">
+            </div>
+
+            <label class="operators-title">Operators</label>
+            <div class="operators-button">
+                <button class="op-btn addBtn"><i class="fa-solid fa-plus"></i></button>
+                <button class="op-btn subBtn"><i class="fa-solid fa-minus"></i></button>
+                <button class="op-btn mulBtn"><i class="fa-solid fa-xmark"></i></button>
+                <button class="op-btn divBtn"><i class="fa-solid fa-divide"></i></button>
+                <button class="op-btn clrBtn"><i class="fa-solid fa-c"></i></button>
+            </div>
+            <footer>
+                <p>Super Basic Calculator by AFED-RG</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
